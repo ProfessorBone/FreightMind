@@ -1,0 +1,39 @@
+{
+  "scope": "northeast_truck_corridor_mvp",
+  "last_reviewed": "2026-03-28",
+  "extracts": [
+    {
+      "name": "us-northeast-latest.osm.pbf",
+      "provider": "Geofabrik",
+      "url": "https://download.geofabrik.de/north-america/us-northeast-latest.osm.pbf",
+      "target_path": "tril/data/extracts/us-northeast-latest.osm.pbf",
+      "used_by": ["graphhopper", "nominatim"],
+      "refresh_cadence": "weekly"
+    }
+  ],
+  "import_outputs": {
+    "graphhopper_cache_dir": "tril/data/graphhopper/",
+    "nominatim_database": "local postgres/postgis instance",
+    "overlay_join_inputs": [
+      "tril/data/nbi_bridges.json",
+      "tril/data/state_overlays.json"
+    ]
+  },
+  "recommended_order": [
+    "download_extract",
+    "refresh_nominatim_import",
+    "refresh_graphhopper_cache",
+    "rebuild_overlay_join_artifacts",
+    "smoke_test_tril_cli"
+  ],
+  "smoke_test_queries": [
+    "Johnstown, NY",
+    "Tobyhanna, PA",
+    "Old Bridge, NJ"
+  ],
+  "notes": [
+    "Keep GraphHopper and Nominatim on the same extract vintage where possible.",
+    "Run overlay rebuild after any OSM refresh so local restrictions stay aligned with route graph metadata.",
+    "Store exact import timestamps and extract checksum once the first live ingest is completed."
+  ]
+}

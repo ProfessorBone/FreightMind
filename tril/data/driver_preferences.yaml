@@ -1,0 +1,34 @@
+# TRIL Driver Preferences Configuration
+# Faheem-specific routing preferences
+
+preferences:
+  avoid_zones:
+    - label: "NYC Metro"
+      penalty: 0.95
+      bounding_box: [40.4, -74.3, 41.0, -73.7]
+    - label: "DC Beltway"
+      penalty: 0.7
+      bounding_box: [38.7, -77.3, 39.1, -76.8]
+
+  preferred_corridors:
+    - label: "I-81 Shenandoah"
+      bonus: 0.3
+      road_refs: ["I-81"]
+    - label: "I-78/I-80 PA"
+      bonus: 0.2
+      road_refs: ["I-78", "I-80"]
+
+  preferred_stops:
+    - label: "Pilot Flying J"
+      type: fuel
+    - label: "Love's Travel Stop"
+      type: fuel
+    - label: "Walmart Okay Break"
+      type: reset
+      source: "curated_walmart_list"
+
+  avoid_patterns:
+    - type: "tight_urban_turns"
+      penalty: 0.6
+    - type: "residential_cutthrough"
+      penalty: 0.8

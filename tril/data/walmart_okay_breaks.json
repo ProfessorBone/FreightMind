@@ -1,0 +1,13 @@
+{
+  "version": "manual-v1",
+  "status": "seed",
+  "records": [
+    {
+      "location_name": "Walmart Supercenter - Carlisle, PA",
+      "location_type": "okay_break",
+      "coordinates": [40.2012, -77.189],
+      "confirmed_date": "unknown",
+      "restrictions": "placeholder seed record"
+    }
+  ]
+}

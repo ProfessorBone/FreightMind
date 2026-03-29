@@ -1,0 +1,33 @@
+{
+  "version": "nbi-2026.03-midatlantic-demo",
+  "status": "pilot",
+  "published_at": "2026-03-15",
+  "effective_from": "2026-03-15",
+  "stale_after_days": 45,
+  "coverage": {
+    "states": ["PA", "NJ", "NY"],
+    "notes": "Demo slice for TRIL bridge-level overlay design. Structure IDs and values are illustrative."
+  },
+  "records": [
+    {
+      "structure_id": "NBI-NJ-221B-0001",
+      "segment_id": "seg-i78-1",
+      "feature_name": "I-78 WB Delaware River Span",
+      "clearance_ft": 14.5,
+      "posted_weight_lb": 80000,
+      "posted_axle_weight_lb": 18000,
+      "inspection_date": "2026-02-18",
+      "owner": "NJDOT"
+    },
+    {
+      "structure_id": "NBI-PA-081N-0042",
+      "segment_id": "seg-i81-2",
+      "feature_name": "I-81 NB Mountain Viaduct",
+      "clearance_ft": 14.0,
+      "posted_weight_lb": 78000,
+      "posted_axle_weight_lb": 17000,
+      "inspection_date": "2026-01-28",
+      "owner": "PennDOT"
+    }
+  ]
+}

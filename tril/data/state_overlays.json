@@ -1,0 +1,54 @@
+{
+  "version": "state-overlays-2026.03-tristate-demo",
+  "status": "pilot",
+  "published_at": "2026-03-20",
+  "effective_from": "2026-03-20",
+  "stale_after_days": 21,
+  "coverage": {
+    "states": ["PA", "NJ", "NY"],
+    "overlay_types": ["posted-bridge", "truck-route", "hazmat-restriction"],
+    "notes": "Illustrative tri-state overlay model for TRIL MVP."
+  },
+  "states": {
+    "PA": [
+      {
+        "state": "PA",
+        "segment_id": "seg-i81-2",
+        "corridor_id": "PADOT-I81-NB-TRK-001",
+        "restriction_type": "posted-bridge",
+        "maxheight_ft": 13.9,
+        "maxweight_lb": 77000,
+        "max_axle_weight_lb": 16800,
+        "hazmat_allowed": true,
+        "hgv_allowed": true,
+        "updated_at": "2026-03-18"
+      }
+    ],
+    "NJ": [
+      {
+        "state": "NJ",
+        "segment_id": "seg-i78-1",
+        "corridor_id": "NJDOT-I78-WB-HAZ-014",
+        "restriction_type": "hazmat-restriction",
+        "maxheight_ft": 14.2,
+        "maxweight_lb": 80000,
+        "maxlength_ft": 75,
+        "hazmat_allowed": false,
+        "hgv_allowed": true,
+        "updated_at": "2026-03-19"
+      }
+    ],
+    "NY": [
+      {
+        "state": "NY",
+        "segment_id": "seg-local-2",
+        "corridor_id": "NYSDOT-LOCAL-ACCESS-DC6080",
+        "restriction_type": "local-truck-route",
+        "maxlength_ft": 65,
+        "hazmat_allowed": true,
+        "hgv_allowed": true,
+        "updated_at": "2026-03-17"
+      }
+    ]
+  }
+}

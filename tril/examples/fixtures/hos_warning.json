@@ -1,0 +1,406 @@
+{
+  "alternatives": [
+    {
+      "confidence_score": 0.8064,
+      "constraint_report": {
+        "source_versions": {
+          "nbi": {
+            "age_days": 13,
+            "coverage": {
+              "notes": "Demo slice for TRIL bridge-level overlay design. Structure IDs and values are illustrative.",
+              "states": [
+                "PA",
+                "NJ",
+                "NY"
+              ]
+            },
+            "effective_from": "2026-03-15",
+            "published_at": "2026-03-15",
+            "record_count": 2,
+            "source_name": "NBI",
+            "stale_after_days": 45,
+            "status": "pilot",
+            "version": "nbi-2026.03-midatlantic-demo"
+          },
+          "state_overlays": {
+            "age_days": 8,
+            "coverage": {
+              "notes": "Illustrative tri-state overlay model for TRIL MVP.",
+              "overlay_types": [
+                "posted-bridge",
+                "truck-route",
+                "hazmat-restriction"
+              ],
+              "states": [
+                "PA",
+                "NJ",
+                "NY"
+              ]
+            },
+            "effective_from": "2026-03-20",
+            "published_at": "2026-03-20",
+            "record_count": 3,
+            "source_name": "STATE_OVERLAYS",
+            "stale_after_days": 21,
+            "status": "pilot",
+            "version": "state-overlays-2026.03-tristate-demo"
+          }
+        },
+        "turn_feasibility_note": "Sequence-level turn validation not available in MVP. Routing engine profile provides partial coverage.",
+        "turn_feasibility_validated": false,
+        "validation_trace": [
+          {
+            "applied_limits": {},
+            "applied_sources": [],
+            "matched_reference_ids": {},
+            "notes": [
+              "No segment-level hard constraint violations detected"
+            ],
+            "segment_id": "seg-urban-1",
+            "segment_name": "Urban Connector",
+            "source_age_days": {
+              "nbi": 13,
+              "state_overlays": 8
+            },
+            "stale_sources": []
+          },
+          {
+            "applied_limits": {},
+            "applied_sources": [],
+            "matched_reference_ids": {},
+            "notes": [
+              "No segment-level hard constraint violations detected"
+            ],
+            "segment_id": "seg-res-1",
+            "segment_name": "Tight Residential Cutthrough",
+            "source_age_days": {
+              "nbi": 13,
+              "state_overlays": 8
+            },
+            "stale_sources": []
+          },
+          {
+            "applied_limits": {},
+            "applied_sources": [
+              "osm"
+            ],
+            "matched_reference_ids": {},
+            "notes": [
+              "No segment-level hard constraint violations detected"
+            ],
+            "segment_id": "seg-i80-1",
+            "segment_name": "I-80 W",
+            "source_age_days": {
+              "nbi": 13,
+              "state_overlays": 8
+            },
+            "stale_sources": []
+          }
+        ],
+        "violations": [],
+        "violations_found": 0,
+        "warnings": [
+          {
+            "description": "No reliable constraint data available for Tight Residential Cutthrough",
+            "segment_id": "seg-res-1",
+            "tier": 4,
+            "type": "LOW_CONFIDENCE_SEGMENT"
+          }
+        ]
+      },
+      "distance_miles": 208.0,
+      "estimated_drive_time_hours": 4.6,
+      "preference_score": 0.65,
+      "route_candidate_id": "route-3",
+      "safety_score": 0.784,
+      "summary": "Shorter urban route with lower confidence"
+    }
+  ],
+  "constraint_report": {
+    "source_versions": {
+      "nbi": {
+        "age_days": 13,
+        "coverage": {
+          "notes": "Demo slice for TRIL bridge-level overlay design. Structure IDs and values are illustrative.",
+          "states": [
+            "PA",
+            "NJ",
+            "NY"
+          ]
+        },
+        "effective_from": "2026-03-15",
+        "published_at": "2026-03-15",
+        "record_count": 2,
+        "source_name": "NBI",
+        "stale_after_days": 45,
+        "status": "pilot",
+        "version": "nbi-2026.03-midatlantic-demo"
+      },
+      "state_overlays": {
+        "age_days": 8,
+        "coverage": {
+          "notes": "Illustrative tri-state overlay model for TRIL MVP.",
+          "overlay_types": [
+            "posted-bridge",
+            "truck-route",
+            "hazmat-restriction"
+          ],
+          "states": [
+            "PA",
+            "NJ",
+            "NY"
+          ]
+        },
+        "effective_from": "2026-03-20",
+        "published_at": "2026-03-20",
+        "record_count": 3,
+        "source_name": "STATE_OVERLAYS",
+        "stale_after_days": 21,
+        "status": "pilot",
+        "version": "state-overlays-2026.03-tristate-demo"
+      }
+    },
+    "turn_feasibility_note": "Sequence-level turn validation not available in MVP. Routing engine profile provides partial coverage.",
+    "turn_feasibility_validated": false,
+    "validation_trace": [
+      {
+        "applied_limits": {},
+        "applied_sources": [
+          "osm",
+          "overlay:njdot"
+        ],
+        "matched_reference_ids": {},
+        "notes": [
+          "No segment-level hard constraint violations detected"
+        ],
+        "segment_id": "seg-i81-1",
+        "segment_name": "I-81 N",
+        "source_age_days": {
+          "nbi": 13,
+          "state_overlays": 8
+        },
+        "stale_sources": []
+      },
+      {
+        "applied_limits": {},
+        "applied_sources": [
+          "osm"
+        ],
+        "matched_reference_ids": {},
+        "notes": [
+          "No segment-level hard constraint violations detected"
+        ],
+        "segment_id": "seg-i380-1",
+        "segment_name": "I-380 N",
+        "source_age_days": {
+          "nbi": 13,
+          "state_overlays": 8
+        },
+        "stale_sources": []
+      },
+      {
+        "applied_limits": {},
+        "applied_sources": [],
+        "matched_reference_ids": {},
+        "notes": [
+          "No segment-level hard constraint violations detected"
+        ],
+        "segment_id": "seg-local-1",
+        "segment_name": "Industrial Access Rd",
+        "source_age_days": {
+          "nbi": 13,
+          "state_overlays": 8
+        },
+        "stale_sources": []
+      },
+      {
+        "applied_limits": {},
+        "applied_sources": [],
+        "matched_reference_ids": {},
+        "notes": [
+          "No segment-level hard constraint violations detected"
+        ],
+        "segment_id": "seg-warehouse-1",
+        "segment_name": "Warehouse Connector",
+        "source_age_days": {
+          "nbi": 13,
+          "state_overlays": 8
+        },
+        "stale_sources": []
+      }
+    ],
+    "violations": [],
+    "violations_found": 0,
+    "warnings": [
+      {
+        "description": "No reliable constraint data available for Industrial Access Rd",
+        "segment_id": "seg-local-1",
+        "tier": 4,
+        "type": "LOW_CONFIDENCE_SEGMENT"
+      },
+      {
+        "description": "No reliable constraint data available for Warehouse Connector",
+        "segment_id": "seg-warehouse-1",
+        "tier": 4,
+        "type": "LOW_CONFIDENCE_SEGMENT"
+      }
+    ]
+  },
+  "error": null,
+  "hos_analysis": {
+    "alternative_resets": [
+      {
+        "coordinates": [
+          40.5556,
+          -76.0001
+        ],
+        "distance_from_origin_miles": 118.4,
+        "drive_time_to_reset_hours": 2.4,
+        "location_name": "Love's Travel Stop - Hamburg, PA",
+        "location_type": "truck_stop",
+        "post_reset_remaining_miles": 116.6
+      }
+    ],
+    "duty_overage_hours": 0.75,
+    "hos_warning": true,
+    "overage_hours": 0.75,
+    "projected_drive_hours_remaining": -0.75,
+    "projected_duty_hours_remaining": -0.75,
+    "recommended_reset": {
+      "coordinates": [
+        40.2012,
+        -77.189
+      ],
+      "distance_from_origin_miles": 154.2,
+      "drive_time_to_reset_hours": 3.1,
+      "location_name": "Pilot Travel Center - Carlisle, PA",
+      "location_type": "truck_stop",
+      "post_reset_remaining_miles": 80.8
+    },
+    "remaining_drive_hours": 3.5,
+    "remaining_duty_hours": 4.0,
+    "route_drive_time_hours": 4.25,
+    "route_duty_time_hours": 4.75,
+    "summary": "Route busts drive clock. Drive over by 0.75h, duty over by 0.75h. Stage a reset before Pilot Travel Center - Carlisle, PA."
+  },
+  "route": {
+    "confidence_score": 0.9402,
+    "data_staleness_warning": null,
+    "data_tiers": {
+      "tier_1_pct": 67.42,
+      "tier_2_pct": 30.9,
+      "tier_3_pct": 0.0,
+      "tier_4_pct": 1.69
+    },
+    "destination": "DC6080",
+    "distance_miles": 220.0,
+    "estimated_drive_time_hours": 4.25,
+    "gpx_file": "/Users/clarencedowns/.openclaw/agents/jack-crawford/workspace/tril/out/TRIL_S9196_Johnstown__NY_DC6080_Tobyhanna__PA.gpx",
+    "json_file": "/Users/clarencedowns/.openclaw/agents/jack-crawford/workspace/tril/out/TRIL_S9196_Johnstown__NY_DC6080_Tobyhanna__PA.json",
+    "origin": "S9196",
+    "preference_score": 0.85,
+    "reference_data_status": {
+      "nbi": {
+        "age_days": 13,
+        "coverage": {
+          "notes": "Demo slice for TRIL bridge-level overlay design. Structure IDs and values are illustrative.",
+          "states": [
+            "PA",
+            "NJ",
+            "NY"
+          ]
+        },
+        "is_stale": false,
+        "published_at": "2026-03-15",
+        "record_count": 2,
+        "stale_after_days": 45,
+        "status": "pilot",
+        "version": "nbi-2026.03-midatlantic-demo"
+      },
+      "state_overlays": {
+        "age_days": 8,
+        "coverage": {
+          "notes": "Illustrative tri-state overlay model for TRIL MVP.",
+          "overlay_types": [
+            "posted-bridge",
+            "truck-route",
+            "hazmat-restriction"
+          ],
+          "states": [
+            "PA",
+            "NJ",
+            "NY"
+          ]
+        },
+        "is_stale": false,
+        "published_at": "2026-03-20",
+        "record_count": 3,
+        "stale_after_days": 21,
+        "status": "pilot",
+        "version": "state-overlays-2026.03-tristate-demo"
+      }
+    },
+    "route_candidate_id": "route-1",
+    "safety_score": 0.9831,
+    "segments": [
+      {
+        "confidence_tier": 1,
+        "distance_miles": 120.0,
+        "name": "I-81 N",
+        "road_class": "interstate",
+        "segment_id": "seg-i81-1",
+        "source_flags": [
+          "osm",
+          "overlay:njdot"
+        ]
+      },
+      {
+        "confidence_tier": 2,
+        "distance_miles": 55.0,
+        "name": "I-380 N",
+        "road_class": "interstate",
+        "segment_id": "seg-i380-1",
+        "source_flags": [
+          "osm"
+        ]
+      },
+      {
+        "confidence_tier": 4,
+        "distance_miles": 2.0,
+        "name": "Industrial Access Rd",
+        "road_class": "local",
+        "segment_id": "seg-local-1",
+        "source_flags": []
+      },
+      {
+        "confidence_tier": 4,
+        "distance_miles": 1.0,
+        "name": "Warehouse Connector",
+        "road_class": "service",
+        "segment_id": "seg-warehouse-1",
+        "source_flags": []
+      }
+    ],
+    "shareable_link": "https://www.google.com/maps/dir/?api=1&origin=43.0209%2C-74.3671&destination=41.177%2C-75.4174",
+    "source_engine": "stub-graphhopper",
+    "stops": [],
+    "summary": "Primary interstate-heavy route",
+    "waypoints": [
+      {
+        "confidence": 0.99,
+        "input": "S9196",
+        "lat": 43.0209,
+        "lon": -74.3671,
+        "matched_name": "S9196 Johnstown, NY"
+      },
+      {
+        "confidence": 0.99,
+        "input": "DC6080",
+        "lat": 41.177,
+        "lon": -75.4174,
+        "matched_name": "DC6080 Tobyhanna, PA"
+      }
+    ]
+  },
+  "status": "ROUTE_FOUND"
+}

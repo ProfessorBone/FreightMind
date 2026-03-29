@@ -1,0 +1,35 @@
+# TRIL Production Configuration — Hannibal Edge Node
+# Active when TRIL_PRODUCTION_MODE=true or loaded explicitly
+
+services:
+  geocoder_mode: nominatim
+  router_mode: graphhopper
+  nominatim_url: "http://127.0.0.1:8080"
+  graphhopper_url: "http://127.0.0.1:8989"
+  graphhopper_profile: truck
+  user_agent: "TRIL/1.0 (Hannibal Edge)"
+  request_timeout_seconds: 15
+
+engine:
+  max_retry_attempts: 5
+  route_alternatives: 3
+  stale_after_days: 60
+
+rate_limits:
+  max_calls: 60
+  window_seconds: 60
+
+logging:
+  level: INFO
+  audit_log: true
+  validation_log: true
+
+validation:
+  strict_mode: true
+  require_confidence_above: 0.5
+  reject_all_tier4: false
+
+continuum:
+  node: hannibal-edge
+  service: tril
+  trace_enabled: true
