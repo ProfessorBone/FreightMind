@@ -73,7 +73,7 @@ export default function ActivitySummary({ tripMemory }) {
             </span>
           </div>
           <div className="flex items-center justify-between bg-surface-light/40 border border-panel-border rounded p-3">
-            <span className="text-xs text-gray-400 tracking-wider">TRIP MILES</span>
+            <span className="text-xs text-gray-400 tracking-wider">WORK WEEK MILES</span>
             <span className="text-xl font-bold text-cyber-cyan glow-cyan">
               {tripMiles || '—'}
             </span>
