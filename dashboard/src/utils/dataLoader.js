@@ -169,12 +169,8 @@ export async function loadTripMemory() {
     return { activeTrip: null, recentTrips: [], activityDays: [], activeDay: null, previousCompletedDay: null, tripMiles: 0 };
   }
 
-  // activeDay: most recent entry where source is day_recap or live_update
-  const recapSources = new Set(['day_recap', 'live_update']);
-  const recapEntries = activityLog.filter((d) => recapSources.has(d.source));
-  const activeDay = recapEntries.length
-    ? recapEntries[recapEntries.length - 1]
-    : activityLog[activityLog.length - 1];
+  // activeDay: most recent entry in the log regardless of source
+  const activeDay = activityLog[activityLog.length - 1] || null;
 
   // previousCompletedDay: most recent completed entry with miles (day_recap or pay_activity_recap)
   const completedSources = new Set(['day_recap', 'pay_activity_recap']);
