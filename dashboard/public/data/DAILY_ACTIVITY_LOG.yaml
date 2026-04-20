@@ -1,0 +1,537 @@
+days:
+  - date: 2026-02-25
+    trip_number:
+    activities:
+      HK: 4
+      AD: 4
+      AR: 0
+      LL: 1
+      LU: 0
+      LO: 1
+      WT_hours: 0
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles: 372
+    pay:
+    notes_refs: []
+    source: shorthand_manual
+    last_updated: 2026-04-03T23:55:00-04:00
+  - date: 2026-02-16
+    trip_number:
+    activities:
+      HK: 3
+      AD: 4
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 1
+      WT_hours: 0
+      TS_hours: 0
+      BD_hours: 2.83
+      RC_hours: 0
+      SR_hours: 0
+    miles: 334
+    pay:
+    notes_refs: []
+    source: shorthand_manual
+    last_updated: 2026-04-03T23:55:00-04:00
+  - date: 2026-02-22
+    trip_number:
+    activities:
+      HK: 2
+      AD: 1
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 0
+      WT_hours: 0
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 7.0
+      SR_hours: 0
+    miles: 216
+    pay:
+    notes_refs: []
+    source: shorthand_manual
+    last_updated: 2026-04-03T23:55:00-04:00
+  - date: 2026-02-23
+    trip_number:
+    activities:
+      HK: 3
+      AD: 3
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 1
+      WT_hours: 0
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 3.35
+      SR_hours: 0
+    miles: 353
+    pay:
+    notes_refs: []
+    source: shorthand_manual
+    last_updated: 2026-04-03T23:55:00-04:00
+  - date: 2026-02-24
+    trip_number:
+    activities:
+      HK: 2
+      AD: 2
+      AR: 0
+      LL: 1
+      LU: 0
+      LO: 1
+      WT_hours: 4.67
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles: 241
+    pay:
+    notes_refs: []
+    source: shorthand_manual
+    last_updated: 2026-04-03T23:55:00-04:00
+  - date: 2026-03-01
+    trip_number:
+    activities:
+      HK: 4
+      AD: 4
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 0
+      WT_hours: 0
+      TS_hours: 1.05
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles: 433
+    pay: 414.44
+    notes_refs: []
+    source: shorthand_manual
+    last_updated: 2026-04-03T23:55:00-04:00
+  - date: 2026-03-02
+    trip_number:
+    activities:
+      HK: 6
+      AD: 5
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 1
+      WT_hours: 1.8
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles: 333
+    pay: 414.13
+    notes_refs: []
+    source: shorthand_manual
+    last_updated: 2026-04-03T23:55:00-04:00
+  - date: 2026-03-03
+    trip_number:
+    activities:
+      HK: 3
+      AD: 4
+      AR: 0
+      LL: 1
+      LU: 0
+      LO: 1
+      WT_hours: 0
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles: 489
+    pay:
+    notes_refs: []
+    source: shorthand_manual
+    last_updated: 2026-04-03T23:55:00-04:00
+  - date: 2026-03-04
+    trip_number:
+    activities:
+      HK: 4
+      AD: 3
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 1
+      WT_hours: 0
+      TS_hours: 0.5
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles: 449
+    pay:
+    notes_refs: []
+    source: shorthand_manual
+    last_updated: 2026-04-03T23:55:00-04:00
+  - date: 2026-03-05
+    trip_number:
+    activities:
+      HK: 1
+      AD: 2
+      AR: 0
+      LL: 0
+      LU: 3
+      LO: 1
+      WT_hours: 0
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles: 340
+    pay:
+    notes_refs: []
+    source: shorthand_manual
+    last_updated: 2026-04-03T23:55:00-04:00
+  - date: 2026-03-09
+    trip_number:
+    activities:
+      HK: 4
+      AD: 3
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 0
+      WT_hours: 0
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles: 454
+    pay:
+    notes_refs: []
+    source: shorthand_manual
+    last_updated: 2026-04-03T23:55:00-04:00
+  - date: 2026-03-10
+    trip_number:
+    activities:
+      HK: 3
+      AD: 3
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 1
+      WT_hours: 0
+      TS_hours: 0
+      BD_hours: 3.93
+      RC_hours: 0
+      SR_hours: 0
+    miles: 401
+    pay:
+    notes_refs: []
+    source: shorthand_manual
+    last_updated: 2026-04-03T23:55:00-04:00
+  - date: 2026-03-11
+    trip_number:
+    activities:
+      HK: 2
+      AD: 2
+      AR: 0
+      LL: 1
+      LU: 0
+      LO: 1
+      WT_hours: 1.0
+      TS_hours: 0
+      BD_hours: 1.83
+      RC_hours: 0
+      SR_hours: 0
+    miles:
+    pay:
+    notes_refs: []
+    source: shorthand_manual
+    last_updated: 2026-04-03T23:55:00-04:00
+  - date: 2026-03-12
+    trip_number:
+    activities:
+      HK: 2
+      AD: 3
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 1
+      WT_hours: 0
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles: 413
+    pay:
+    notes_refs: []
+    source: shorthand_manual
+    last_updated: 2026-04-03T23:55:00-04:00
+  - date: 2026-03-24
+    trip_number: 504258086
+    activities:
+      HK: 1
+      AD: 1
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 0
+      WT_hours: 0
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles:
+    pay:
+    notes_refs:
+      - note-2026-03-24-001
+      - note-2026-03-24-002
+    source: live_update
+    last_updated: 2026-03-24T20:55:00-04:00
+  - date: 2026-03-24
+    trip_number: 504292961
+    activities:
+      HK: 2
+      AD: 1
+      AR: 1
+      LL: 0
+      LU: 1
+      LO: 0
+      WT_hours: 0.68
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles: 418
+    pay:
+    notes_refs: []
+    source: pay_activity_recap
+    last_updated: 2026-03-25T00:35:00-04:00
+  - date: 2026-03-25
+    trip_number: 504275094
+    activities:
+      HK: 2
+      AD: 3
+      AR: 0
+      LL: 0
+      LU: 1
+      LO: 1
+      WT_hours: 0
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles:
+    pay:
+    notes_refs: []
+    source: live_update
+    last_updated: 2026-03-25T23:16:00-04:00
+  - date: 2026-03-26
+    trip_number: 504325964
+    activities:
+      HK: 1
+      AD: 1
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 1
+      WT_hours: 0
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles:
+    pay:
+    notes_refs: []
+    source: live_update
+    last_updated: 2026-03-26T13:36:00-04:00
+  - date: 2026-03-26
+    trip_number: 504354770
+    activities:
+      HK: 1
+      AD: 0
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 0
+      WT_hours: 0
+      TS_hours: 3.23
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles:
+    pay:
+    notes_refs: []
+    source: live_update
+    last_updated: 2026-03-26T16:42:00-04:00
+  - date: 2026-03-26
+    trip_number: 504288067
+    activities:
+      HK: 2
+      AD: 2
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 1
+      WT_hours: 0.27
+      TS_hours: 0
+      BD_hours: 1.58
+      RC_hours: 0
+      SR_hours: 0
+    miles:
+    pay:
+    notes_refs: []
+    source: day_recap
+    last_updated: 2026-03-27T00:58:00-04:00
+  - date: 2026-03-27
+    trip_number:
+    activities:
+      HK: 1
+      AD: 1
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 0
+      WT_hours: 0
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles:
+    pay:
+    notes_refs: []
+    source: live_update
+    last_updated: 2026-03-27T00:59:00-04:00
+  - date: 2026-03-27
+    trip_number: 504288067
+    activities:
+      HK: 3
+      AD: 3
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 1
+      WT_hours: 0.07
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles: 560
+    pay:
+    notes_refs: []
+    source: pay_activity_recap
+    last_updated: 2026-03-28T22:35:00-04:00
+  - date: 2026-03-28
+    trip_number: 504282243
+    activities:
+      HK: 2
+      AD: 3
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 1
+      WT_hours: 0
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles: 593
+    pay:
+    notes_refs: []
+    source: pay_activity_recap
+    last_updated: 2026-03-28T22:36:00-04:00
+  - date: 2026-03-31
+    trip_number:
+    activities:
+      HK: 4
+      AD: 4
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 1
+      WT_hours: 1.03
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+      CL_hours: 0.5
+    miles: 411
+    pay:
+    notes_refs: []
+    source: pay_activity_recap
+    last_updated: 2026-04-01T13:59:00-04:00
+  - date: 2026-04-01
+    trip_number: 504341374
+    activities:
+      HK: 3
+      AD: 3
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 1
+      WT_hours: 1.35
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles: 404
+    pay:
+    notes_refs: []
+    source: day_recap
+    last_updated: 2026-04-01T23:57:00-04:00
+  - date: 2026-04-02
+    trip_number:
+    activities:
+      HK: 1
+      AD: 2
+      AR: 1
+      LL: 0
+      LU: 3
+      LO: 1
+      WT_hours: 0.05
+      TS_hours: 2
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+    miles: 496
+    pay:
+    notes_refs: []
+    source: pay_activity_recap
+    last_updated: 2026-04-03T00:05:00-04:00
+  - date: 2026-04-03
+    trip_number:
+    activities:
+      HK: 3
+      AD: 2
+      AR: 1
+      LL: 0
+      LU: 2
+      LO: 1
+      WT_hours: 0.38
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 0
+      ST_hours: 1
+    miles: 400
+    pay:
+    notes_refs: []
+    source: pay_activity_recap
+    last_updated: 2026-04-03T23:50:00-04:00
+  - date: 2026-04-04
+    trip_number:
+    activities:
+      HK: 2
+      AD: 4
+      AR: 0
+      LL: 0
+      LU: 0
+      LO: 1
+      WT_hours: 0
+      TS_hours: 0
+      BD_hours: 0
+      RC_hours: 0
+      SR_hours: 10.02
+    miles: 339
+    pay:
+    notes_refs: []
+    source: pay_activity_recap
+    last_updated: 2026-04-04T19:34:00-04:00

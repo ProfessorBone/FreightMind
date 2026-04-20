@@ -1,0 +1,33 @@
+notes:
+  - note_id: note-2026-03-24-001
+    date: 2026-03-24
+    trip_number: 504258086
+    category: vendor_issue
+    summary: Next destination includes vendor V43385501 Tropicana in Jersey City.
+    details: Vendor 43385501 (Tropicana 3002 Edi P), 9 Linden Ave E, Jersey City, NJ 07305. Phone observed as (201) 395-6009 x0. Load 92734400 and trailer P-POOL were visible on the dispatch screen.
+    tags:
+      - vendor
+      - destination
+      - trip_504258086
+    related_store_id:
+    related_vendor_id: V43385501
+    related_route:
+    importance: medium
+    created_at: 2026-03-24T15:33:00-04:00
+  - note_id: note-2026-03-24-002
+    date: 2026-03-24
+    trip_number: 504258086
+    category: store_issue
+    summary: Next destination includes store S5447 in Kearny with tight-store handling notes.
+    details: Store 5447, 150 Harrison Ave, Kearny, NJ 07032. Construction at store. Channel 6. Frequency 3 code 57. Do not block fire door. Breaking allowed only behind store on the west side. Do not pull ahead and bob out. Tight store. Put grocery and GM in docks marked as such.
+    tags:
+      - store
+      - destination
+      - break
+      - tight_store
+      - trip_504258086
+    related_store_id: S5447
+    related_vendor_id:
+    related_route:
+    importance: high
+    created_at: 2026-03-24T15:33:00-04:00

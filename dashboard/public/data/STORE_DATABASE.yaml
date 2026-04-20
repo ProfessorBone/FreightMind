@@ -1,0 +1,352 @@
+stores:
+  - store_id: S5644
+    store_number: 5644
+    name:
+    location:
+      city:
+      state:
+      address:
+    break_status: unknown
+    store_type:
+    notes:
+    last_updated: 2026-03-24T06:01:00-04:00
+  - store_id: S4041
+    store_number: 4041
+    name:
+    location:
+      city: Linden
+      state: NJ
+      address: 1900 East Linden Ave
+    break_status: break
+    store_type: satellite_facility
+    notes:
+      - This is where Faheem leaves out at the beginning of the week and ends on the last day.
+      - Satellite facility of DC6080.
+    last_updated: 2026-03-26T13:41:00-04:00
+  - store_id: DC7030
+    store_number: 7030
+    name: Distribution Center 7030
+    location:
+      city: Pottsville
+      state: PA
+      address: 390 Highridge Park Rd.
+    break_status: break
+    store_type: distribution_center
+    notes:
+      - Headed to DC 7030.
+    last_updated: 2026-03-24T11:05:00-04:00
+  - store_id: S5447
+    store_number: 5447
+    name:
+    location:
+      city: Kearny
+      state: NJ
+      address: 150 Harrison Ave
+    break_status: break
+    store_type:
+    notes:
+      - Construction at store.
+      - Channel 6.
+      - Frequency 3 code 57.
+      - Do not block fire door.
+      - Breaking allowed only behind store on the west side.
+      - Do not pull ahead and bob out.
+      - Tight store.
+      - Put grocery and GM in docks marked as such.
+      - Phone: (973) 851-1517 x0000.
+    last_updated: 2026-03-24T15:33:00-04:00
+  - store_id: S4612
+    store_number: 4612
+    name: Walmart Store 4612
+    location:
+      city: Hamburg
+      state: PA
+      address: 1800 Tilden Ridge
+    break_status: break
+    store_type: walmart_store
+    notes:
+      - Okay break.
+      - Faheem took his break here.
+    last_updated: 2026-03-25T11:07:00-04:00
+  - store_id: S5495
+    store_number: 5495
+    name:
+    location:
+      city: Glenolden
+      state: PA
+      address: 50 N Macdade Blvd
+    break_status: no_break
+    store_type:
+    notes:
+      - Shared dock.
+      - Trailers if available.
+      - Noise ordinance 22:00–07:00.
+      - Wait/park in side lot away from residence.
+      - Walkie-talkie channel 1.
+      - Do not follow Navigo out of the store.
+      - Go back to 476.
+      - Phone: (610) 583-2682 x0000.
+    last_updated: 2026-03-25T13:22:00-04:00
+  - store_id: DC8074
+    store_number: 8074
+    name: Distribution Center 8074
+    location:
+      city: Westampton
+      state: NJ
+      address: 100 Western Rd
+    break_status: break
+    store_type: satellite_facility
+    notes:
+      - 24/7 access.
+      - If dropping inbound load between 05:00–12:00, no traffic associates on site.
+      - Driver writes delivery time and trailer on BOLs.
+      - Drop bills in BOL box outside man door #SO4.
+      - Satellite facility of DC6080.
+      - Phone: (609) 288-9591 x0.
+    last_updated: 2026-03-26T13:41:00-04:00
+  - store_id: DC7377
+    store_number: 7377
+    name: Distribution Center 7377
+    location:
+      city: Lebanon
+      state: PA
+      address: 1625 Heilmandale Road, Lebanon, PA 17046
+    break_status: unknown
+    store_type: distribution_center
+    phone: (717) 675-5180x0
+    approach_directions:
+      from_south_I81: >
+        I-81S, Exit 90 (to PA-72) in Union Twp, Bear Left (to Lickdale/PA-72),
+        Turn Left(E) onto Fisher Ave, after 0.73 mi SE Bear Right(SE) onto PA-72,
+        after 6.49 mi S Turn Right(W) onto Heilmandale Rd in North Lebanon Twp,
+        after 0.43 mi W arrive at DC 7377 on left.
+      from_north_I81: >
+        I-81N, Exit 85A (PA-934 S, to Annville) in East Hanover Twp onto Fisher Ave (PA-934 S),
+        after 0.79 mi SE Turn Left(NE) onto US-22 E (to Allentown/Fredericksburg),
+        then Turn Right(E) onto Allentown Blvd (US-22 E),
+        after 4.33 mi E Exit Right (PA-72 S to Lebanon), then follow to Heilmandale Rd.
+    notes:
+      - Faheem's active run origin as of 2026-03-28.
+      - Approach involves PA-72 and Heilmandale Rd — local roads off I-81.
+      - Next stop for trip 504432341 as of 2026-03-31.
+    last_updated: 2026-03-31T17:25:00-04:00
+
+  - store_id: DC6038
+    store_number: 6038
+    name: Distribution Center 6038
+    location:
+      city: Marcy
+      state: NY
+      address: 8827 Old River Rd, Marcy, NY 13403
+    break_status: unknown
+    store_type: distribution_center
+    phone: (315) 768-0150x0000
+    approach_directions:
+      from_east_I90: >
+        I-90 Exit 31, Bear Right, T/R at red light, T/R up ramp to I-790,
+        NY 49 W, Oriskany Exit, T/R at stop sign, up hill to stop sign,
+        Truck Entrance straight ahead.
+      from_west_I90: >
+        I-90 Exit 33, Bear Right, NY 365 E, NY 49 E, Oriskany Exit,
+        T/L top of ramp, T/R at T, up hill to stop sign,
+        Truck Entrance straight ahead.
+    notes:
+      - First known run to this DC — 2026-03-28. Load ID 43797196 OCON Load.
+      - CDD 2026-03-28. Delivery due same day.
+      - Coming from east (Lebanon PA via I-81N / I-90 W) use Exit 31 approach.
+      - Entrance involves Oriskany Exit off NY-49, uphill approach to truck entrance.
+      - Next stop for trip 51555336 as of 2026-03-31.
+      - Load comment observed: Load ID 43815452 OCON Load.
+      - CDD observed: 2026-04-01.
+    last_updated: 2026-03-31T20:10:00-04:00
+
+  - store_id: DC6080
+    store_number: 6080
+    name: Distribution Center 6080
+    location:
+      city: Tobyhanna
+      state: PA
+      address: 200 Veterans Dr
+    break_status: break
+    store_type: gm_distribution_center
+    notes:
+      - GM facility.
+      - Okay break.
+      - This is Faheem's home domicile.
+      - Faheem's managers, HR, and mentors are at this location.
+      - Alternate address reference: 200 Veterans Drive, Pocono Summit, PA.
+      - South approach: 380N to Exit 8, right onto 423, right at light onto 611S, right at first light onto Veterans Dr.
+      - North approach: 380S to Exit 8 to 611S, right at second light onto Veterans Dr.
+      - Satellite facilities include S4041 in Linden, NJ and DC8074 in Westampton, NJ.
+      - Dedicated are not allowed to break on lot.
+      - Phone: (570) 894-6000 x0000.
+    last_updated: 2026-04-03T20:59:00-04:00
+  - store_id: DC6096
+    store_number: 6096
+    name: Distribution Center 6096
+    location:
+      city: Johnstown
+      state: NY
+      address: 300 Enterprise Road
+    break_status: unknown
+    store_type: grocery_distribution_center
+    phone: (518) 736-3024 x0000
+    notes:
+      - Grocery DC.
+      - Remix loads come from Grocery DCs.
+      - Next destination reported on 2026-04-01.
+      - Route 30A is open to all trucks.
+      - From I-90 use Exit 28, Route 30A N, left onto Opportunity Dr, DC at end.
+      - From I-88 use Exit 23, Route 30A N, then follow the same directions.
+      - Load comment observed: EDI Ref NB54874161 P/U# 41563536.
+    last_updated: 2026-04-03T11:30:00-04:00
+  - store_id: DC7422
+    store_number: 7422
+    name: Distribution Center 7422
+    location:
+      city: Bethlehem
+      state: PA
+      address: 2785 Commerce Center Blvd
+    break_status: unknown
+    store_type: dotcom_distribution_center
+    phone: (610) 317-7330 x0
+    notes:
+      - DOT Com facility.
+      - New trip 504509156 dispatched from DC6080 on 2026-04-04.
+      - This is the first dot-com building.
+      - 7422, 8306, and 68661100 refer to the same location.
+      - 7422 is the DC number.
+      - 8306 is the DC's store number.
+      - 68661101 is the drop yard number.
+      - Directions: 380S, 80E, 33S, 78W, Exit 67 onto 412N, go 1 mi, turn right on Commerce Center Blvd, go 0.75 mi, facility on left.
+      - Load number observed: 107594156.
+      - Trailer observed: P-.
+    last_updated: 2026-04-04T13:02:00-04:00
+  - store_id: S5278
+    store_number: 5278
+    name: Store 5278
+    location:
+      city: Chicopee
+      state: MA
+      address: 591 Memorial Dr
+    break_status: break
+    store_type: walmart_store
+    phone: (413) 593-3192 x0
+    notes:
+      - Current destination reported on 2026-04-01.
+      - From DC6038: I-90 E, Exit 49, bear right through traffic light, turn right before store.
+      - Cannot break in front due to truck barriers.
+      - Walkie-talkie channel 7 code 57.
+      - Deliver remix by 1400.
+      - Break behind store.
+      - Load number observed: 107215374.
+      - Trailer observed: 189662.
+    last_updated: 2026-04-01T14:06:00-04:00
+  - store_id: S1705
+    store_number: 1705
+    name: Store 1705
+    location:
+      city: Waterloo
+      state: NY
+      address: 1860 N Road
+    break_status: unknown
+    store_type: walmart_store
+    phone: (315) 539-3333 x0000
+    notes:
+      - First stop for trip 504409230 reported on 2026-04-02.
+      - Currently at DC6038 when dispatched.
+      - From DC6038: I-90 W, Exit 41, NY 414 S, turn right on North Road, store on left, turn left at 3rd driveway.
+      - From DC6096: follow the above directions.
+      - Store phone note: 315-539-4073.
+      - Grocery use doors 1 or 4.
+      - GM use doors 2 or 3.
+      - Radio channel 2.
+      - Grocery do not drop GM in door 4.
+      - FDD delivery window for store 1705: 2026-04-02 09:00 - 2026-04-02 23:59.
+    last_updated: 2026-04-02T13:04:00-04:00
+  - store_id: S1731
+    store_number: 1731
+    name: Store 1731
+    location:
+      city: Geneva
+      state: NY
+      address: 990 State Route 5 And 20
+    break_status: break
+    store_type: walmart_store
+    phone: (315) 781-3253 x0000
+    notes:
+      - Second stop for trip 504409230 reported on 2026-04-02.
+      - From DC6038: I-90 W, Exit 42, Route 14 S, Route 96 N, left onto County Rd 6 (Pre Emption St), Route 20 W, store on right, stay right of store.
+      - From DC6096: follow above directions.
+      - Drop GM in doors 2 and 3.
+      - Drop grocery in 1 and 4.
+      - Store cannot communicate via radio.
+      - They operate a UHF radio incompatible with ours.
+      - Okay to break.
+    last_updated: 2026-04-02T13:04:00-04:00
+  - store_id: S2785
+    store_number: 2785
+    name: Store 2785
+    location:
+      city: Victor
+      state: NY
+      address: 441 Commerce Dr
+    break_status: no_break
+    store_type: walmart_store
+    phone: (585) 398-6038 x0000
+    notes:
+      - Third stop for trip 504409230 reported on 2026-04-02.
+      - From DC6038: I-90 W, Exit 45, I-490 W, bear right to Exit 29, NY-96 N, turn at first light into store entrance.
+      - From DC6096: follow above directions.
+      - Noise ordinance 23:00-07:00.
+      - No breaking.
+      - No deliveries at all during noise ordinance window.
+      - Radio channel 1.
+      - GM use doors 1 or 2.
+      - Do not use door 3.
+      - Route number observed: 4135.
+    last_updated: 2026-04-02T13:05:00-04:00
+  - store_id: S1830
+    store_number: 1830
+    name: Store 1830
+    location:
+      city: Auburn
+      state: NY
+      address: 297 Grant Ave
+    break_status: break
+    store_type: walmart_store
+    phone: (315) 253-3211 x0000
+    notes:
+      - First stop for trip 504440273 reported on 2026-04-03.
+      - From DC6038: I-90 W, Exit 39, I-690 E, Exit 6, I-695 S, NY-5 W.
+      - Turn right at the light into main entrance.
+      - Continue straight between store and Lowes.
+      - Turn left, then stay right of store.
+      - GM docks are past grocery docks.
+      - From DC6096, follow the above directions.
+      - Use docks 2 and 3 for remix trailers.
+      - Radio channel 6.
+      - Okay to break.
+      - FDD delivery window for store 1830: 2026-04-03 09:00 - 2026-04-03 23:59.
+    last_updated: 2026-04-03T11:10:00-04:00
+  - store_id: S6693
+    store_number: 6693
+    name: Store 6693
+    location:
+      city: Langhorne
+      state: PA
+      address: 1717 E Lincoln Hwy
+    break_status: no_break
+    store_type: sams_club
+    phone: (215) 949-6501 x0000
+    notes:
+      - Sam's Club.
+      - First stop for trip 504499279 reported on 2026-04-04.
+      - No empty available when Faheem arrived; no hook completed there.
+      - Do not put trailers in local delivery door.
+      - Do not use dock 6 and 7 during roofing construction.
+      - Do not drop trailers in the lot.
+      - Door 1 is for live unloads.
+      - From 8231/476S/276E: Exit 351, Route 1 N, 95 S, Exit 44, left then right, 5th red light, stay left, turn right behind Carmax.
+      - From DC7030/81N: Exit 124A, 611 S, 78 E, Route 22 E, 476 S, then follow above directions.
+    last_updated: 2026-04-04T17:44:00-04:00

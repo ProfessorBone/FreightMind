@@ -1,0 +1,215 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cyber-cyan: #00f0ff;
+  --color-cyber-green: #39ff14;
+  --color-cyber-amber: #ffbf00;
+  --color-cyber-red: #ff3b3b;
+  --color-cyber-purple: #b44dff;
+  --color-panel-bg: rgba(10, 18, 30, 0.85);
+  --color-panel-border: rgba(0, 240, 255, 0.25);
+  --color-surface: #0a121e;
+  --color-surface-light: #111c2e;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 240, 255, 0.3) transparent;
+}
+
+body {
+  margin: 0;
+  background: #050a14;
+  color: #e0e8f0;
+  font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', 'Cascadia Code', monospace;
+}
+
+#root {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.glow-cyan {
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.6), 0 0 20px rgba(0, 240, 255, 0.3);
+}
+.glow-green {
+  text-shadow: 0 0 8px rgba(57, 255, 20, 0.6), 0 0 20px rgba(57, 255, 20, 0.3);
+}
+.glow-amber {
+  text-shadow: 0 0 8px rgba(255, 191, 0, 0.6), 0 0 20px rgba(255, 191, 0, 0.3);
+}
+.glow-red {
+  text-shadow: 0 0 8px rgba(255, 59, 59, 0.6), 0 0 20px rgba(255, 59, 59, 0.3);
+}
+
+.panel {
+  background: linear-gradient(135deg, rgba(10, 18, 30, 0.92), rgba(15, 25, 40, 0.88));
+  border: 1px solid rgba(0, 240, 255, 0.2);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+.panel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0, 240, 255, 0.6), transparent);
+}
+
+.panel::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0, 240, 255, 0.15), transparent);
+}
+
+.panel-title {
+  font-size: 0.65rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #00f0ff;
+  padding: 10px 14px 8px;
+  border-bottom: 1px solid rgba(0, 240, 255, 0.1);
+  font-weight: 700;
+}
+
+.scanlines {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 240, 255, 0.012) 2px,
+    rgba(0, 240, 255, 0.012) 4px
+  );
+  z-index: 9999;
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(0, 240, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 240, 255, 0.025) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes border-glow {
+  0%, 100% { border-color: rgba(0, 240, 255, 0.2); box-shadow: 0 0 5px rgba(0, 240, 255, 0.05); }
+  50% { border-color: rgba(0, 240, 255, 0.45); box-shadow: 0 0 15px rgba(0, 240, 255, 0.1); }
+}
+.animate-border-glow {
+  animation: border-glow 4s ease-in-out infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.status-dot.online {
+  background: #39ff14;
+  box-shadow: 0 0 8px #39ff14;
+}
+.status-dot.offline {
+  background: #ff3b3b;
+  box-shadow: 0 0 8px #ff3b3b;
+}
+
+.badge {
+  font-size: 0.55rem;
+  padding: 2px 8px;
+  border-radius: 2px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.trip-input {
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(17, 28, 46, 0.7);
+  border: 1px solid rgba(0, 240, 255, 0.18);
+  color: #e0e8f0;
+  border-radius: 4px;
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 0.75rem;
+}
+
+.trip-input:focus {
+  outline: none;
+  border-color: rgba(0, 240, 255, 0.5);
+  box-shadow: 0 0 0 1px rgba(0, 240, 255, 0.15);
+}
+
+.trip-button {
+  background: rgba(0, 240, 255, 0.12);
+  color: #00f0ff;
+  border: 1px solid rgba(0, 240, 255, 0.3);
+  border-radius: 4px;
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.trip-button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+/* Corner accents for panels */
+.corner-accents {
+  position: relative;
+}
+.corner-accents::before,
+.corner-accents::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-color: rgba(0, 240, 255, 0.5);
+  border-style: solid;
+}
+.corner-accents::before {
+  top: -1px;
+  left: -1px;
+  border-width: 2px 0 0 2px;
+}
+.corner-accents::after {
+  bottom: -1px;
+  right: -1px;
+  border-width: 0 2px 2px 0;
+}

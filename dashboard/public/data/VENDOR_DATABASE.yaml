@@ -1,0 +1,91 @@
+vendors:
+  - vendor_id: V43385501
+    vendor_number: 43385501
+    name: Tropicana 3002 Edi P
+    location:
+      city: Jersey City
+      state: NJ
+      address: 9 Linden Ave E
+    break_status: unknown
+    vendor_type:
+    notes:
+      - Phone: (201) 395-6009 x0
+      - Seen as a destination on trip 504258086.
+      - Load number 92734400 observed on dispatch screen.
+      - Trailer P-POOL observed on dispatch screen.
+    last_updated: 2026-03-24T15:33:00-04:00
+  - vendor_id: V47631201
+    vendor_number: 47631201
+    name: Cott Beverages Aec
+    location:
+      city: Glen Mills
+      state: PA
+      address: 20 Aldan Ave
+    break_status: unknown
+    vendor_type: beverage
+    notes:
+      - Phone: (484) 840-4832 x0.
+      - Call office for pickup instructions.
+      - Angled lot is for empties.
+      - Yard driver will help if lot is tight.
+      - Do not take chances.
+    last_updated: 2026-03-25T12:54:00-04:00
+  - vendor_id: V60552200
+    vendor_number: 60552200
+    name: Phl1 Bethlehem 7356/8302
+    location:
+      city: Bethlehem
+      state: PA
+      address: 3215 Commerce Center Blvd
+    break_status: unknown
+    vendor_type: distribution_vendor
+    notes:
+      - Phone: (484) 635-3123 x0.
+      - First stop reported on 2026-03-31.
+      - DC number 7356 and store number 8302 are the same location.
+      - Vendor number 60552200 is the same location.
+      - Directions: I-78 Exit 67, PA 412 N, turn right onto Commerce Center Blvd.
+      - Follow back to building 3215 on the right.
+      - This is the 2nd dot-com building.
+      - High priority dot-com load.
+    last_updated: 2026-03-31T11:17:00-04:00
+  - vendor_id: V60552264
+    vendor_number: 60552264
+    name: Lasership - Logan Township
+    location:
+      city: Swedesboro
+      state: NJ
+      address: 701 Crossroads Blvd, Bldg F
+    break_status: unknown
+    vendor_type: distribution_vendor
+    notes:
+      - Phone: (433) 525-4157 x0.
+      - Second stop reported on 2026-03-31.
+      - Directions from I-95 in PA: take Exit 4 for US-322 East, continue 4.5 miles, take ramp for Crossroads Blvd, Building F is 3/4 mile on the left.
+      - High priority dot-com load.
+      - Ready by 2026-03-31 14:45.
+      - Must depart by 2026-03-31 15:45.
+      - Must deliver by 2026-03-31 18:00.
+      - Notify TCC immediately if these times cannot be made.
+      - If this is a FedEx load, gate directs driver to the line haul office.
+    last_updated: 2026-03-31T11:25:00-04:00
+  - vendor_id: V47937304
+    vendor_number: 47937304
+    name: H. P. Hood Foods (web)p
+    location:
+      city: Oneida
+      state: NY
+      address: 580 Broad Street
+    break_status: unknown
+    vendor_type: food_vendor
+    notes:
+      - Phone: (315) 363-3733 x0000.
+      - Third stop for trip 504440273 reported on 2026-04-03.
+      - From Exit 34 go east on Route 5 (Genesee St), turn left on Broad St, turn left at HP Hood sign.
+      - Trailer must be precooled at 35 degrees and clean.
+      - Drivers must also have 3/4 tank of fuel in trailer before dropping.
+      - Load comment observed: BY LoadID 43888263 AE P-POOL.
+      - CDD observed: 2026-04-03 08:00.
+      - Pickup observed: 6101020831 Reefer.
+      - Load type: FDD.
+    last_updated: 2026-04-03T11:10:00-04:00
