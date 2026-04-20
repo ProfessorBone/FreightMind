@@ -350,3 +350,32 @@ stores:
       - From 8231/476S/276E: Exit 351, Route 1 N, 95 S, Exit 44, left then right, 5th red light, stay left, turn right behind Carmax.
       - From DC7030/81N: Exit 124A, 611 S, 78 E, Route 22 E, 476 S, then follow above directions.
     last_updated: 2026-04-04T17:44:00-04:00
+  - store_id: S3543
+    store_number: 3543
+    name: Store 3543
+    location:
+      city: Danbury
+      state: CT
+      address: 67 Newtown Rd
+      zip: "06810"
+    break_status: unknown
+    store_type: walmart_store
+    phone: (203) 791-1929 x0000
+    approach_directions:
+      general: >
+        6080 380N, 84E X-8(CT), T/R, 2ND RL T/L, ENTER BETWEEN STORE AND AT&T,
+        MUST LEAVE THE SAME WAY. 7014: I-95S, I-495S, I-90W, I-84W TO X9,
+        STRAIGHT, BEAR LEFT OVER I-84, 3RD RL T/L, FOLLOW ABOVE. 6038 90E,
+        875 EX 17/84E, FOLLOW ABOVE DIRECTIONS. 6096: I-90 E, 87 S, FOLLOW
+        ABOVE DIRECTIONS.
+    notes:
+      - Must depart exact same way as entering.
+      - Exit sign is for cars only.
+      - Do not block docks.
+      - Walkie-talkie channel 1.
+      - Shared docks.
+      - GM docks past grocery.
+      - Drop GM in door 2 or 3 only.
+      - Leave dock 1 open.
+      - OK to break.
+    last_updated: 2026-04-19T11:20:00-04:00
