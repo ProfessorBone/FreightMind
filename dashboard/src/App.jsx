@@ -4,7 +4,7 @@ import ActivitySummary from './components/ActivitySummary';
 import WeeklyChart from './components/WeeklyChart';
 import TrackedTimePanel from './components/TrackedTimePanel';
 import StoreIntel from './components/StoreIntel';
-import CongestionMemory from './components/CongestionMemory';
+import PaySummary from './components/PaySummary';
 import AuditLog from './components/AuditLog';
 import GovernanceStatus from './components/GovernanceStatus';
 import TripMemoryPanel from './components/TripMemoryPanel';
@@ -78,7 +78,7 @@ function App() {
             <StoreIntel stores={data.stores} vendors={data.vendors} tripMemory={data.tripMemory} />
           </div>
           <div style={{ flex: '1 1 280px', minWidth: 0 }}>
-            <CongestionMemory congestion={data.congestion} />
+            <PaySummary tripMemory={data.tripMemory} />
           </div>
           <div style={{ flex: '1 1 280px', minWidth: 0 }}>
             <AuditLog tripMemory={data.tripMemory} />

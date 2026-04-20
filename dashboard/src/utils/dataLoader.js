@@ -181,9 +181,18 @@ export async function loadTripMemory() {
     ? completedWithMiles[completedWithMiles.length - 1]
     : null;
 
-  // tripMiles: sum of miles for the current trip
+  // tripMiles + tripPay: sum across current trip entries
   const tripEntries = getCurrentTripEntries(activityLog);
   const tripMiles = tripEntries.reduce((sum, day) => sum + (day.miles || 0), 0);
+  const tripPay = tripEntries.reduce((sum, day) => sum + (day.pay || 0), 0);
+
+  // previousDayPay: most recent completed entry that has a pay value
+  const completedWithPay = activityLog.filter(
+    (d) => completedSources.has(d.source) && d.pay != null && d.pay > 0
+  );
+  const previousDayPay = completedWithPay.length
+    ? completedWithPay[completedWithPay.length - 1].pay
+    : null;
 
   return {
     activeTrip: null,
@@ -192,6 +201,8 @@ export async function loadTripMemory() {
     activeDay,
     previousCompletedDay,
     tripMiles,
+    tripPay,
+    previousDayPay,
   };
 }
 
