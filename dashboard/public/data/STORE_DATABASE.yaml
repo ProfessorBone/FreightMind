@@ -111,7 +111,7 @@ stores:
       city: Lebanon
       state: PA
       address: 1625 Heilmandale Road, Lebanon, PA 17046
-    break_status: unknown
+    break_status: break
     store_type: distribution_center
     phone: (717) 675-5180x0
     approach_directions:
@@ -138,7 +138,7 @@ stores:
       city: Marcy
       state: NY
       address: 8827 Old River Rd, Marcy, NY 13403
-    break_status: unknown
+    break_status: break
     store_type: distribution_center
     phone: (315) 768-0150x0000
     approach_directions:
@@ -188,7 +188,7 @@ stores:
       city: Johnstown
       state: NY
       address: 300 Enterprise Road
-    break_status: unknown
+    break_status: break
     store_type: grocery_distribution_center
     phone: (518) 736-3024 x0000
     notes:
@@ -207,7 +207,7 @@ stores:
       city: Bethlehem
       state: PA
       address: 2785 Commerce Center Blvd
-    break_status: unknown
+    break_status: break
     store_type: dotcom_distribution_center
     phone: (610) 317-7330 x0
     notes:
@@ -379,3 +379,213 @@ stores:
       - Leave dock 1 open.
       - OK to break.
     last_updated: 2026-04-19T11:20:00-04:00
+  - store_id: S1623
+    store_number: 1623
+    name: Store 1623
+    location:
+      city:
+      state:
+      address:
+    break_status: unknown
+    store_type: walmart_store
+    notes:
+      - Next destination on trip 504577283.
+      - FDD delivery window shown for 2026-04-11 09:00 - 23:59.
+    last_updated: 2026-04-11T21:13:00-04:00
+  - store_id: S8191
+    store_number: 8191
+    name: Store 8191
+    location:
+      city: Wilkes Barre
+      state: PA
+      address: 441 Wilkes Barre Township Blvd
+      zip: "18702"
+    break_status: break
+    store_type: sams_club
+    phone: (570) 821-5500
+    notes:
+      - Wilkes Barre Sam's Club #8191.
+      - Faheem stopped here to take a break.
+      - OK break.
+    last_updated: 2026-04-11T23:24:00-04:00
+  - store_id: S2169
+    store_number: 2169
+    name: Store 2169
+    location:
+      city: Lehighton
+      state: PA
+      address: 1731 Blakeslee Boulevard Dr E
+      zip: "18235"
+    break_status: break
+    store_type: walmart_store
+    phone: (717) 325-9111 x0000
+    notes:
+      - Breaking allowed.
+      - Split docks.
+      - Walkie-talkie channel 1.
+      - Grocery delivery window shown for this stop.
+    last_updated: 2026-04-12T11:02:00-04:00
+  - store_id: S4276
+    store_number: 4276
+    name: Store 4276
+    location:
+      city: Taylor
+      state: PA
+      address: 1325 Main
+      zip: "18517"
+    break_status: break
+    store_type: walmart_store
+    phone: (570) 309-3510 x0000
+    notes:
+      - Shared docks.
+      - Outside door ship from store.
+      - GM doors 2 and 3.
+      - Grocery door closest to building.
+      - Walkie-talkie channel 2.
+      - Breaking allowed back of store only.
+      - Grocery delivery window noted on same load path.
+    last_updated: 2026-04-12T11:03:00-04:00
+  - store_id: S2604
+    store_number: 2604
+    name: Store 2604
+    location:
+      city: Newton
+      state: NJ
+      address: 26 Hampton House Rd
+      zip: "07860"
+    break_status: break
+    store_type: walmart_store
+    notes:
+      - Enter by lawn and garden.
+      - Shared docks.
+      - Breaking allowed.
+      - Walkie-talkie channel 1 / freq 3.
+      - Contact 973-300-1859.
+      - Displayed main phone looked like placeholder / unreliable.
+    last_updated: 2026-04-12T22:43:00-04:00
+  - store_id: S3520
+    store_number: 3520
+    name: Store 3520
+    location:
+      city: Secaucus
+      state: NJ
+      address: 400 Park Pl
+      zip: "07094"
+    break_status: break
+    store_type: sams_club
+    phone: (201) 325-9280 x0
+    notes:
+      - Store under construction until 04/2025.
+      - Do not deliver before 07:00.
+      - Do not pull ahead.
+      - Walkie-talkie channel 1 / freq 3 / code 3.
+      - Breaking allowed at Sam's.
+      - Split docks.
+    last_updated: 2026-04-15T23:54:00-04:00
+  - store_id: S2167
+    store_number: 2167
+    name: Store 2167
+    location:
+      city: Exton
+      state: PA
+      address: 270 Indian Run St
+      zip: "19341"
+    break_status: break
+    store_type: walmart_store
+    phone: (484) 875-9053
+    notes:
+      - Faheem stopped here for a break.
+      - OK break.
+    last_updated: 2026-04-17T00:32:00-04:00
+  - store_id: S2904
+    store_number: 2904
+    name: Store 2904
+    location:
+      city: Brockton
+      state: MA
+      address: 700 Oak St
+      zip: "02301"
+    break_status: unknown
+    store_type: walmart_store
+    phone: (508) 584-2333 x0
+    notes:
+      - Walkie-talkie channel 1.
+      - GM delivery use doors 2 and 3 only.
+      - Door 1 is live unload only.
+      - No extra trailers in front parking lot.
+      - Not Walmart-owned property.
+      - If hazmat is on BOL, use the hazmat profile for routing.
+    last_updated: 2026-04-18T11:56:00-04:00
+  - store_id: S1964
+    store_number: 1964
+    name: Store 1964
+    location:
+      city: Westerly
+      state: RI
+      address: 258 Post Rd
+      zip: "02891"
+    break_status: unknown
+    store_type: walmart_store
+    phone: (401) 322-0790 x0
+    notes:
+      - Must arrive by 20:00 for FDD.
+      - LOS 09:00 for MP LOS.
+      - Strict noise ordinance 21:00–07:00.
+      - Drop remix in 2 or 3 only.
+      - Door 1 live unload.
+      - GM docks back corner past grocery docks.
+      - Clear docks; do not leave blocked.
+      - Walkie-talkie channel 2 code 000.
+    last_updated: 2026-04-18T11:56:00-04:00
+  - store_id: DC7014
+    store_number: 7014
+    name: Distribution Center 7014
+    location:
+      city: Lewiston
+      state: ME
+      address: 239 Goddard Rd
+      zip: "04240"
+    break_status: break
+    store_type: distribution_center
+    phone: (866) 767-3985 x0000
+    approach_directions:
+      general: "RT101 E -> I-95 N -> Exit 80 -> turn right off ramp to 2nd Rd -> right onto Goddard Rd -> DC on left"
+    notes:
+      - Dispatch phone 207-344-2830.
+      - Faheem took a break here.
+    last_updated: 2026-04-16T22:03:00-04:00
+  - store_id: S2097
+    store_number: 2097
+    name: Store 2097
+    location:
+      city: Hudson
+      state: NY
+      address: 460 Fairview Ave
+      zip: "12534"
+    break_status: break
+    store_type: walmart_store
+    phone: (518) 828-3344 x0000
+    notes:
+      - Drop GM in door 2 or 3 if possible.
+      - Walkie-talkie channel 1 / freq 3 / code 1.
+      - Breaking allowed.
+      - Grocery delivery window shown for same load.
+    last_updated: 2026-04-19T11:19:00-04:00
+  - store_id: S2351
+    store_number: 2351
+    name: Store 2351
+    location:
+      city: Catskill
+      state: NY
+      address: 30 Catskill Cmns
+      zip: "12414"
+    break_status: break
+    store_type: walmart_store
+    phone: (518) 943-9423 x0000
+    notes:
+      - GM docks past grocery.
+      - Walkie-talkie channel 1 / freq 03 / code 000.
+      - Drop GM in door 2 or 3 only.
+      - Leave dock 1 open.
+      - OK to break.
+    last_updated: 2026-04-19T11:19:00-04:00

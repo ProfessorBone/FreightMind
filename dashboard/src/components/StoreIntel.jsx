@@ -18,6 +18,13 @@ function getSiteType(site) {
   return 'store';
 }
 
+// All DCs are okay breaks — override unknown/missing break_status for DC sites
+function resolveBreakStatus(site) {
+  if (site._source === 'vendor') return site.break_status || 'unknown';
+  if (site.store_id?.startsWith('DC')) return 'break';
+  return site.break_status || 'unknown';
+}
+
 function getSiteId(site) {
   return site._source === 'vendor' ? site.vendor_id : site.store_id;
 }
@@ -91,8 +98,8 @@ function SiteCard({ site, isExpanded, onToggle }) {
   const siteType = getSiteType(site);
   const typeStyle = TYPE_STYLES[siteType];
   const siteId = getSiteId(site);
-  const breakStyle = site.break_status && site._source !== 'vendor'
-    ? BREAK_COLORS[site.break_status] || BREAK_COLORS.unknown
+  const breakStyle = site._source !== 'vendor'
+    ? BREAK_COLORS[resolveBreakStatus(site)] || BREAK_COLORS.unknown
     : null;
 
   const city = site.location?.city || '';
